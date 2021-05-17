@@ -77,7 +77,7 @@ For more details about how to use the T5 please refer to its [github repository]
 In order to predict categories of data practices for new segments you need first to preprocess each segment as shown in the following figure:
 The preprocessed segments need to be saved in an txt file, where each line is a segment. The input file is then passed to the following command:
 
-![Preprocessed segment for the task of categories prediction](.\figures\text_to_text_example_task1_input.png)
+![Preprocessed segment for the task of categories prediction](https://github.com/smartlawhub/Automated-GDPR-Compliance-Checking/blob/main/t5/figures/text_to_text_example_task1_input.png)
 
 ```sh
 t5_mesh_transformer \
@@ -99,7 +99,7 @@ t5_mesh_transformer \
 ### Values prediction
 In order to predict values of attribute for new segment you need first to preprocess each segment as shown in the following figure:
 
-![Preprocessed segment for the task of values prediction](.\figures\text_to_text_example_task2_input.png)
+![Preprocessed segment for the task of values prediction](https://github.com/smartlawhub/Automated-GDPR-Compliance-Checking/blob/main/t5/figures/text_to_text_example_task2_input.png)
 
 ```sh
 t5_mesh_transformer \
