@@ -5,7 +5,7 @@ Both Data and fine-tuned 11B T5 model are accessible from this link: https://dri
 
 ## Training Dataset
 
-We use the Usable Privacy Policy Project’s Online Privacy Policies (OPP-115) corpus as training dataset. We preprocessed the dataset into a format appropriate for T5, and saved them in a TSV file. You could download preprocessed TSV files from [Google Drive](https://drive.google.com/drive/folders/1glD3QY7PLE6sZTyW3L_56whfhihm-Qco?usp=sharing) (GCS).
+We use the Usable Privacy Policy Project’s Online Privacy Policies (OPP-115) corpus as training dataset. We preprocessed the dataset into a format appropriate for T5, and saved them in a TSV file. You could download preprocessed TSV files from [Google Drive](https://drive.google.com/drive/folders/1glD3QY7PLE6sZTyW3L_56whfhihm-Qco?usp=sharing).
 
 ## Installation
 

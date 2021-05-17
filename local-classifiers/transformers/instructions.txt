@@ -1,0 +1,25 @@
+
+
+Setup
+
+The first time you run the script or the notebook on a new environment install the required packages by running "pip install -r requirements.txt"
+
+
+
+
+Training
+
+1. Place the labelled dataset under outputs/clean_dataset_merged.pkl. Note that you can generate it from OPP-115 dataset by runnning Data_wrangling.ypnb notebook
+2. Start training by running "python train.py"
+3. Trained models will be saved to "/models"
+
+
+
+
+
+Predicting
+
+1. trained models must be placed on "/models_final", if you just ran train.py, you will have to move the new models from "/models" to "/models_final"
+2. Segments/sentences to be classified must be saved with CSV format on "/inference_data/segments.csv", for guidance on how to create this file you can check the end of Data_wrangling.ypnb notebook, it contains code for generating the CSV
+3. Start inference by running "python predict.py"
+4. output will be saved to "inference_data/predictions.json"
